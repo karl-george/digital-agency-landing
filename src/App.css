@@ -1,0 +1,12 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section__padding {
+  padding: 7rem;
+}
+
+.section__padding-lg {
+  padding: 13.5rem;
+}

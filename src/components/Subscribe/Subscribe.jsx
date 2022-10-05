@@ -1,4 +1,4 @@
-import './subcribe.css';
+import './subscribe.css';
 
 const Subscribe = () => {
   return <div>Subscribe</div>;
