@@ -26,14 +26,16 @@ const Navbar = () => {
     <div className='navbar section__padding'>
       <div className='navbar__container'>
         <div className='navbar__container-logo'>
-          <img src={logo} alt='logo' />
+          <a href='#home'>
+            <img src={logo} alt='logo' />
+          </a>
         </div>
         <div className='navbar__container-links'>
           <Menu />
         </div>
-      </div>
-      <div className='navbar__btn'>
-        <button type='button'>Get in touch</button>
+        <div className='navbar__btn'>
+          <button type='button'>Get in touch</button>
+        </div>
       </div>
     </div>
   );
