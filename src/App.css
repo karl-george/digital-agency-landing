@@ -25,9 +25,9 @@ img {
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 560px) {
   .section__padding {
-    padding: 0 2rem;
+    padding: 0 3rem;
   }
 
   .section__padding-lg {
