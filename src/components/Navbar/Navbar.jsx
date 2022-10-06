@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/logo.png';
 import './navbar.css';
 
@@ -35,6 +36,31 @@ const Navbar = () => {
         </div>
         <div className='navbar__btn'>
           <button type='button'>Get in touch</button>
+        </div>
+        <div className='navbar__mobile'>
+          {toggleMenu ? (
+            <RiCloseLine
+              color='#fff'
+              size={27}
+              onClick={() => setToggleMenu(false)}
+            />
+          ) : (
+            <RiMenu3Line
+              color='#fff'
+              size={27}
+              onClick={() => setToggleMenu(true)}
+            />
+          )}
+          {toggleMenu && (
+            <div className='navbar__mobile-container scale-up-center'>
+              <div className='navbar__mobile_container_links'>
+                <Menu />
+                <div className='navbar__mobile-container_links-button'>
+                  <button type='button'>Get in touch</button>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>

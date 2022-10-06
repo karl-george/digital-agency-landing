@@ -16,7 +16,7 @@ function App() {
   return (
     <div className='da container'>
       <Navbar />
-      <Header />
+      {/* <Header />
       <Brands />
       <Features />
       <Help />
@@ -24,7 +24,7 @@ function App() {
       <Future />
       <Testimonial />
       <Subscribe />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
