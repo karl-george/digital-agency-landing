@@ -8,25 +8,27 @@ import './brands.css';
 
 const Brands = () => {
   return (
-    <div className='brands section__padding'>
-      <div className='brands__container'>
-        <div className='hubspot'>
-          <img src={hubspotImg} />
-        </div>
-        <div className='slack'>
-          <img src={slackImg} />
-        </div>
-        <div className='amazon'>
-          <img src={amazonImg} />
-        </div>
-        <div className='woo'>
-          <img src={wooImg} />
-        </div>
-        <div className='meundies'>
-          <img src={meundiesImg} />
-        </div>
-        <div className='sitepoint'>
-          <img src={sitepointImg} />
+    <div className='container'>
+      <div className='brands section__padding'>
+        <div className='brands__container'>
+          <div className='hubspot'>
+            <img src={hubspotImg} />
+          </div>
+          <div className='slack'>
+            <img src={slackImg} />
+          </div>
+          <div className='amazon'>
+            <img src={amazonImg} />
+          </div>
+          <div className='woo'>
+            <img src={wooImg} />
+          </div>
+          <div className='meundies'>
+            <img src={meundiesImg} />
+          </div>
+          <div className='sitepoint'>
+            <img src={sitepointImg} />
+          </div>
         </div>
       </div>
     </div>

@@ -14,12 +14,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className='da container'>
+    <div className='da '>
       <Navbar />
       <Header />
       <Brands />
-      {/* <Features />
-      <Help />
+      <Features />
+      {/* <Help />
       <MediaBlock />
       <Future />
       <Testimonial />
