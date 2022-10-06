@@ -17,8 +17,8 @@ function App() {
     <div className='da container'>
       <Navbar />
       <Header />
-      {/* <Brands />
-      <Features />
+      <Brands />
+      {/* <Features />
       <Help />
       <MediaBlock />
       <Future />

@@ -1,0 +1,16 @@
+.brands__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2rem;
+  margin: 8rem 0;
+  flex-wrap: wrap;
+}
+
+.brands__container div {
+  flex: 1;
+  max-width: 150px;
+  min-width: 100px;
+  margin: 2rem;
+}
