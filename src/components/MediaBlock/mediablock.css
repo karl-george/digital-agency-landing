@@ -1,0 +1,16 @@
+.mediablock {
+  margin-top: 8rem;
+  padding: 0 8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.mediablock img {
+  max-width: 530px;
+}
+
+.mediablock:nth-child(2) {
+  flex-direction: row-reverse;
+}

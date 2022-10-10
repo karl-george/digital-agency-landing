@@ -5,7 +5,7 @@ import {
   Future,
   Header,
   Help,
-  MediaBlock,
+  MediaSection,
   Navbar,
   Subscribe,
   Testimonial,
@@ -20,8 +20,8 @@ function App() {
       <Brands />
       <Features />
       <Help />
-      {/* <MediaBlock />
-      <Future />
+      <MediaSection />
+      {/* <Future />
       <Testimonial />
       <Subscribe />
       <Footer /> */}

@@ -4,6 +4,7 @@ export { default as Footer } from './Footer/Footer';
 export { default as Future } from './Future/Future';
 export { default as Header } from './Header/Header';
 export { default as Help } from './Help/Help';
+export { default as MediaSection } from './MediaSection/MediaSection';
 export { default as MediaBlock } from './MediaBlock/MediaBlock';
 export { default as Navbar } from './Navbar/Navbar';
 export { default as Subscribe } from './Subscribe/Subscribe';
