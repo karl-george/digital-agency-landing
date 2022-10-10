@@ -7,7 +7,7 @@ import './help.css';
 const Help = () => {
   return (
     <div className='container'>
-      <div className='help section_padding-lg'>
+      <div className='help section__padding-lg'>
         <div className='help-title'>
           <h2>How can we help your business?</h2>
           <p>When you resell besnik, you build trust and increase</p>
