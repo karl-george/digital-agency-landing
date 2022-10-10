@@ -44,3 +44,9 @@
   margin-bottom: 4rem;
   max-width: 270px;
 }
+
+@media screen and (max-width: 1023px) {
+  .helpcard {
+    margin-bottom: 3rem;
+  }
+}
