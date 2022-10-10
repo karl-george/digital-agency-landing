@@ -1,0 +1,19 @@
+.help {
+  margin-top: 14rem;
+}
+
+.help-title h2 {
+  color: var(--color-text-primary);
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 6rem;
+  text-align: center;
+}
+
+.help-title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: var(--color-text-secondary);
+}

@@ -14,13 +14,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className='da '>
+    <div className='da'>
       <Navbar />
       <Header />
       <Brands />
       <Features />
-      {/* <Help />
-      <MediaBlock />
+      <Help />
+      {/* <MediaBlock />
       <Future />
       <Testimonial />
       <Subscribe />
