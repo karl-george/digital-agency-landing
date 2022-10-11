@@ -22,8 +22,8 @@ function App() {
       <Help />
       <MediaSection />
       <Future />
-      {/* <Testimonial />
-      <Subscribe />
+      <Testimonial />
+      {/* <Subscribe />
       <Footer /> */}
     </div>
   );
