@@ -1,5 +1,5 @@
 .subscribe {
-  margin: 20rem 0 5rem;
+  margin: 16rem 0 5rem;
 }
 
 .subscribe__container {
@@ -99,11 +99,43 @@
 }
 
 @media screen and (max-width: 798px) {
+  .subscribe__container {
+    padding: 2rem 2rem 4rem;
+  }
+
   .subscribe__input {
     width: 100%;
   }
 
   .subscribe__content {
     flex: 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+}
+
+@media screen and (max-width: 550px) {
+  .subscribe__input input {
+    padding: 1.5rem 1rem;
+  }
+
+  .subscribe__input button {
+    padding: 1.5rem 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .subscribe__input {
+    flex-direction: column;
+  }
+
+  .subscribe__input input {
+    border-radius: 12px;
+    margin-bottom: 2rem;
+  }
+
+  .subscribe__input button {
+    border-radius: 12px;
   }
 }
