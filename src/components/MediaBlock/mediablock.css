@@ -69,6 +69,10 @@
     padding: 0 2rem;
   }
 
+  .mediablock:last-child {
+    margin-bottom: 2rem;
+  }
+
   .mediablock:nth-child(even) {
     flex-direction: column;
   }

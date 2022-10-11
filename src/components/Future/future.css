@@ -85,10 +85,38 @@
 }
 
 @media screen and (max-width: 1023px) {
+  .future {
+    margin-top: 6rem;
+  }
+
+  .future__container {
+    flex-direction: column;
+  }
+
+  .future__content button {
+    margin-bottom: 8rem;
+  }
 }
 
 @media screen and (max-width: 650px) {
+  .future-card__container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .future__content h2 {
+    font-size: 3.4rem;
+    line-height: 4.4rem;
+    letter-spacing: -0.01em;
+    color: var(--color-text-primary);
+  }
 }
 
 @media screen and (max-width: 560px) {
+  .future__content h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+    color: var(--color-text-primary);
+  }
 }

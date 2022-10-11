@@ -45,6 +45,23 @@
   text-decoration: none;
 }
 
+.future-card__div a:visited {
+  color: var(--color-text-links);
+}
+
 .future-card__div a:hover {
   color: #a5a7e2;
+}
+
+@media screen and (max-width: 650px) {
+  .future-card__div p {
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .future-card__div h4 {
+    font-size: 2.2rem;
+    line-height: 2.7rem;
+  }
 }
