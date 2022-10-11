@@ -113,9 +113,17 @@
 }
 
 @media screen and (max-width: 650px) {
+  .subscribe__content h4 {
+    font-size: 3.4rem;
+    line-height: 4rem;
+  }
 }
 
 @media screen and (max-width: 550px) {
+  .subscribe__content h4 {
+    font-size: 3rem;
+  }
+
   .subscribe__input input {
     padding: 1.5rem 1rem;
   }
