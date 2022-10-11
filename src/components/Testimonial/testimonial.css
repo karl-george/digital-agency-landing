@@ -71,8 +71,22 @@
 
 .testimonial__card p {
   font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 1.8rem;
+  line-height: 3rem;
   text-align: center;
   color: var(--color-text-secondary);
+}
+
+@media screen and (max-width: 650px) {
+  .testimonial-container h2 {
+    font-size: 3.4rem;
+    line-height: 4.4rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .testimonial-container h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
 }
