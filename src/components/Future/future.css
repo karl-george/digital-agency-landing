@@ -1,10 +1,12 @@
 .future {
-  margin-top: 8rem;
+  margin-top: 16rem;
+  margin-bottom: 6rem;
 }
 
 .future__container {
   display: flex;
   align-items: center;
+  flex-direction: row;
   justify-content: flex-start;
 }
 
@@ -21,6 +23,7 @@
   font-size: 1.6rem;
   line-height: 2.8rem;
   color: var(--color-text-secondary);
+  max-width: 450px;
 }
 
 .future__content-list p {
@@ -78,4 +81,14 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+@media screen and (max-width: 1023px) {
+}
+
+@media screen and (max-width: 650px) {
+}
+
+@media screen and (max-width: 560px) {
 }

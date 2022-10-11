@@ -1,5 +1,9 @@
 import FutureCard from '../FutureCard/FutureCard';
 import tickImg from '../../assets/tick.png';
+import stackImg from '../../assets/stack.png';
+import bulbImg from '../../assets/bulb.png';
+import cog2Img from '../../assets/cog2.png';
+import chartImg from '../../assets/chart.png';
 import './future.css';
 
 const Future = () => {
@@ -29,10 +33,26 @@ const Future = () => {
             <button>Get started</button>
           </div>
           <div className='future-card__container'>
-            <FutureCard img={} title={} content={}/>
-            <FutureCard img={} title={} content={}/>
-            <FutureCard img={} title={} content={}/>
-            <FutureCard img={} title={} content={}/>
+            <FutureCard
+              img={stackImg}
+              title={`Web Design`}
+              content={`One for all and all for one, Muskehounds are always ready.`}
+            />
+            <FutureCard
+              img={bulbImg}
+              title={`Ad-Creatives`}
+              content={`Alphabet Village and the subline of her own road.`}
+            />
+            <FutureCard
+              img={cog2Img}
+              title={`Automation`}
+              content={`Little Blind Text should turn around and return.`}
+            />
+            <FutureCard
+              img={chartImg}
+              title={`Infographics`}
+              content={`Nothing the copy said could convince her.`}
+            />
           </div>
         </div>
       </div>

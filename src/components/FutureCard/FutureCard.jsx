@@ -1,13 +1,13 @@
 import './futurecard.css';
 
-const FutureCard = () => {
+const FutureCard = ({ img, title, content }) => {
   return (
     <div className='future-card'>
-      <div className='future-card__container'>
-        <img />
-        <h4></h4>
-        <p></p>
-        <a>LEARN MORE</a>
+      <div className='future-card__div'>
+        <img src={img} alt={`${img} icon`} />
+        <h4>{title}</h4>
+        <p>{content}</p>
+        <a href='#'>LEARN MORE</a>
       </div>
     </div>
   );
