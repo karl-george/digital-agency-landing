@@ -1,3 +1,5 @@
+import personImg from '../../assets/person1.png';
+import starsImg from '../../assets/review.png';
 import './testimonial.css';
 
 const Testimonial = () => {
@@ -5,11 +7,11 @@ const Testimonial = () => {
     <div className='container'>
       <div className='testimonial section__padding-lg'>
         <div className='testimonial-container'>
-          <h2>What our happy client say</h2>
+          <h2>What our happy clients say</h2>
           <p>Things that make it the best place to start trading</p>
           <div className='testimonial__card'>
-            <img />
-            <img />
+            <img className='user-image' src={personImg} alt='Picture of user' />
+            <img className='star-review' src={starsImg} alt='Star review' />
             <h4>John De Marli</h4>
             <p>
               Far far away, behind the word mountains, far from the countries
