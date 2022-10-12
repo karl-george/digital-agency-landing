@@ -1,12 +1,14 @@
 .footer {
   background: #343549;
-  padding: 6rem 0;
+  padding: 6rem 0 2rem;
 }
 
 .footer__container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  padding-bottom: 5rem;
+  border-bottom: 1px solid #5c5d75;
 }
 
 .footer_container-design-title {
@@ -64,4 +66,39 @@
   line-height: 1.7rem;
   letter-spacing: -0.01em;
   color: var(--color-text-secondary);
+  margin: 1.5rem 0;
+}
+
+.footer__container-links ul li a {
+  text-decoration: none;
+  color: var(--color-text-secondary);
+}
+
+.footer__copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__copyright p {
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  letter-spacing: -0.01em;
+  color: var(--color-text-secondary);
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__container {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 650px) {
+}
+
+@media screen and (max-width: 560px) {
+  .footer__container {
+    flex-direction: column;
+  }
 }

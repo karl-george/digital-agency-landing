@@ -45,7 +45,7 @@ const Footer = () => {
                   <a href=''>How it Works</a>
                 </li>
                 <li>
-                  <a href=''>Cotact Us</a>
+                  <a href=''>Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -89,7 +89,10 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className='footer__copyright'></div>
+          <div className='footer__copyright'>
+            <p>Copyright © 2022 Karl George</p>
+            <p>Original Design by AR Shakir</p>
+          </div>
         </div>
       </div>
     </div>
