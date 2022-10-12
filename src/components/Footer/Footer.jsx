@@ -1,3 +1,7 @@
+import colorLogo from '../../assets/logo_color.png';
+import twitterLogo from '../../assets/twitter.png';
+import facebookLogo from '../../assets/facebook.png';
+import linkedinLogo from '../../assets/linkedin.png';
 import './footer.css';
 
 const Footer = () => {
@@ -7,47 +11,81 @@ const Footer = () => {
         <div className='section__padding-lg'>
           <div className='footer__container'>
             <div className='footer__container-design'>
-              <img />
-              <h4>The Next Design</h4>
+              <div className='footer_container-design-title'>
+                <img src={colorLogo} alt='logo' />
+                <h4>The Next Design</h4>
+              </div>
               <p>
                 The copy warned the Little Blind Text, that where it came from
                 it would have been rewritten a thousand times.
               </p>
-              <img />
-              <img />
-              <img />
+              <a href=''>
+                <img src={facebookLogo} alt='facebook logo' />
+              </a>
+              <a href=''>
+                <img src={twitterLogo} alt='twitter logo' />
+              </a>
+              <a href=''>
+                <img src={linkedinLogo} alt='linkedin logo' />
+              </a>
             </div>
             <div className='footer__container-links'>
               <h4>Company</h4>
               <ul>
-                <li>About</li>
-                <li>Terms of Use</li>
-                <li>Privacy Policy</li>
-                <li>How it Works</li>
-                <li>Contact Us</li>
+                <li>
+                  <a href=''>About</a>
+                </li>
+                <li>
+                  <a href=''>Terms of Use</a>
+                </li>
+                <li>
+                  <a href=''>Privacy Policy</a>
+                </li>
+                <li>
+                  <a href=''>How it Works</a>
+                </li>
+                <li>
+                  <a href=''>Cotact Us</a>
+                </li>
               </ul>
             </div>
             <div className='footer__container-links'>
               <h4>Get Help</h4>
               <ul>
-                <li>Support Career</li>
-                <li>24h Service</li>
-                <li>Quick Chat</li>
+                <li>
+                  <a href=''>Support Carrer</a>
+                </li>
+                <li>
+                  <a href=''>24h Service</a>
+                </li>
+                <li>
+                  <a href=''>Quick Chat</a>
+                </li>
               </ul>
             </div>
             <div className='footer__container-links'>
               <h4>Support</h4>
               <ul>
-                <li>FAQ</li>
-                <li>Policy</li>
-                <li>Business</li>
+                <li>
+                  <a href=''>FAQ</a>
+                </li>
+                <li>
+                  <a href=''>Policy</a>
+                </li>
+                <li>
+                  <a href=''>Business</a>
+                </li>
               </ul>
             </div>
             <div className='footer__container-links'>
               <h4>Contact</h4>
               <ul>
-                <li>WhatsApp</li>
-                <li>Support 24</li>
+                <li>
+                  <a href=''>WhatsApp</a>
+                </li>
+                <li>
+                  <a href=''>Support 24</a>
+                </li>
               </ul>
             </div>
           </div>
