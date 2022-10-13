@@ -51,7 +51,11 @@
   font-weight: 500;
   font-size: 1.7rem;
   line-height: 1.8rem;
-  color: #7777d0;
+  color: var(--color-text-links);
+}
+
+.mediablock-content a:hover p {
+  color: var(--color-links-hover);
 }
 
 .mediablock:nth-child(odd) .mediablock-content:nth-child(2) {

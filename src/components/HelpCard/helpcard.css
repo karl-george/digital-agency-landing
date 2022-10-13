@@ -37,8 +37,8 @@
 
 .helpcard-container p {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
   text-align: center;
   color: var(--color-text-secondary);
   margin-bottom: 4rem;

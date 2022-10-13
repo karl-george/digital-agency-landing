@@ -13,8 +13,8 @@
 
 .help-title p {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
   text-align: center;
   color: var(--color-text-secondary);
   margin-top: 3rem;
@@ -54,8 +54,7 @@
   outline: none;
   cursor: pointer;
 
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+  margin: 6rem 0;
 }
 
 @media screen and (max-width: 1023px) {
@@ -68,8 +67,7 @@
   }
 
   .help-button button {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin: 3rem 0;
   }
 }
 

@@ -1,5 +1,5 @@
 .features {
-  background: #343549;
+  background: var(--color-bg-light);
   padding: 4rem 0;
 }
 
@@ -25,7 +25,7 @@
   font-weight: 700;
   font-size: 3.2rem;
   line-height: 4rem;
-  color: #787aa5;
+  color: var(--color-text-primary);
   margin-top: 2rem;
 }
 
@@ -61,7 +61,7 @@
   font-size: 2.4rem;
   line-height: 2.9rem;
   letter-spacing: -0.01em;
-  color: #787aa5;
+  color: var(--color-text-primary);
   margin-bottom: 1rem;
 }
 
@@ -69,7 +69,7 @@
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.6rem;
-  color: #5c5d75;
+  color: var(--color-text-secondary);
 }
 
 @media screen and (max-width: 1023px) {

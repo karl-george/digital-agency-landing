@@ -53,7 +53,7 @@ const Footer = () => {
               <h4>Get Help</h4>
               <ul>
                 <li>
-                  <a href=''>Support Carrer</a>
+                  <a href=''>Support Career</a>
                 </li>
                 <li>
                   <a href=''>24h Service</a>

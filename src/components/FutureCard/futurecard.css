@@ -1,6 +1,6 @@
 .future-card {
-  background: #343549;
-  border-radius: 12px;
+  background: var(--color-bg-light);
+  border-radius: 14px;
   padding: 3rem;
 
   box-shadow: 20px 35px 70px rgba(0, 0, 0, 0.04);
@@ -50,7 +50,7 @@
 }
 
 .future-card__div a:hover {
-  color: #a5a7e2;
+  color: var(--color-links-hover);
 }
 
 @media screen and (max-width: 650px) {

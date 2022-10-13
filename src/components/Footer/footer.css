@@ -1,5 +1,5 @@
 .footer {
-  background: #343549;
+  background: var(--color-bg-light);
   padding: 6rem 0 2rem;
 }
 
@@ -92,9 +92,6 @@
   .footer__container {
     flex-wrap: wrap;
   }
-}
-
-@media screen and (max-width: 650px) {
 }
 
 @media screen and (max-width: 560px) {
